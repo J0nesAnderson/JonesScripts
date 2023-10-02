@@ -1,0 +1,8 @@
+local args = {
+[1] = "Any weapon you'd like For example, M4A1, MiniGun, etc",
+[2] = 0
+}
+
+game:GetService("ReplicatedStorage").Remotes.Shop:FireServer(unpack(args))
+print("WORKS")
+warn("WORKS2!")
